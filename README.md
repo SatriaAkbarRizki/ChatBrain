@@ -1,11 +1,15 @@
 ![ChatBrain](https://github.com/user-attachments/assets/0279a98c-6214-4378-a941-19c56d06338d)
-<h1> Hi Everyone </h1>
-<h2> Welcome to Repository ChatBrain </h2>
-ChatBrain is application chatting with ai, you can send what you know with ChatBrain also this application support with image + voice for easy interactive with ChatBrain
 
-<h3> Feature ChatBrain </h3>
-Here Feature avaible for you <p>
+# Hi Everyone :wave:
+## Welcome to Repository ChatBrain :brain:
+
+ChatBrain is an application chatting with Gemini AI. You can share your knowledge with ChatBrain and this application supports image and voice for easy interaction with ChatBrain.
+
+### Feature ChatBrain :bulb:
+Here are the features available for you:
 - Message only
+- Message + Image
+- Speech to Text + Image
 
-<h3> Can me modif this project? </h3>
-Of course, this Open Source you can modif with project me but before you modif, you need have key api from [gemini studio](https://aistudio.google.com/app/apikey) and integrate you api key from this ..
+### Can I modify this project? :hammer_and_wrench:
+Of course, this is Open Source! You can modify the project this but before you do it, you need an API key from [Gemini Studio](https://aistudio.google.com/app/apikey) and Integrate your API key from [this](https://github.com/SatriaAkbarRizki/ChatBrain/blob/master/lib/presenter/gemini.dart).
