@@ -1,0 +1,4 @@
+enum TypeMessage {
+  user,
+  gemini,
+}

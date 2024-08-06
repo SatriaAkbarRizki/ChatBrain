@@ -1,0 +1,52 @@
+name: speakai
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  animated_text_kit: ^4.2.2
+  file_picker: ^8.0.6
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_markdown: ^0.7.3
+  flutter_svg: ^2.0.10+1
+  google_generative_ai: ^0.4.3
+  image_picker: ^1.1.2
+  lottie: ^3.1.2
+  mime: ^1.0.5
+  provider: ^6.1.2
+  shared_preferences: ^2.3.1
+  shimmer: ^3.0.0
+  speech_to_text: ^6.6.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/illustration/
+    - assets/Animation/
+    - assets/Icons/
+  fonts:
+    - family: intern_tight
+      fonts:
+        - asset: assets/fonts/Inter_Tight/InterTight-VariableFont_wght.ttf
+    - family: BespokeSans
+      fonts:
+        - asset: assets/fonts/BespokeSans_Complete/Fonts/TTF/BespokeSans-Variable.ttf
+    -  family: Satoshi
+       fonts:
+        - asset: assets/fonts/Satoshi_Complete/Fonts/TTF/Satoshi-Variable.ttf
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/Icons/icons.png"
+  min_sdk_android: 25 
